@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(255, 249, 229);
+    background-image: linear-gradient( to bottom, rgb(250, 242, 213), rgb(255, 249, 229), rgb(216, 254, 229));
     margin: 8px;
 }
 main {
