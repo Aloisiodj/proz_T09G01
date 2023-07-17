@@ -22,7 +22,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient( to bottom, rgb(250, 242, 213), rgb(255, 249, 229), rgb(216, 254, 229));
+    background-image: url(files/25800354_7129969.svg);
+    background-size: cover;
     margin: 8px;
 }
 main {
@@ -35,13 +36,13 @@ a {
     text-decoration: none;
     color:rgb(85, 46, 6)
 }
-a:hover{
+li:hover{
     background-color: gold;
     border-radius: 15px;
     color:rgb(0, 21, 255);
     transition: 100ms;
 }
-a:active {
+li:active {
     color:yellow;
     background-color:cornflowerblue;
     transition: 100ms;
@@ -60,12 +61,17 @@ ul {
     list-style-type: none;
     display: flex;
     border-radius: 25px;
-    border: solid brown;
     border-width: 2px;
+    background-color: rgb(171, 77, 43);
 }
 li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: burlywood;
     margin-top: 2px;
     margin-bottom: 3px;
     margin-left: 8px;
@@ -74,10 +80,22 @@ li {
 .sec1 {
     margin: 20px;
     display: flex;
-    border: solid green;
     width: 40%;
     height: 500px;
     border-radius: 15px;
+}
+
+.imgsec1 {
+    width: 100%;
+    overflow: hidden;
+}
+.img1sec2 {
+    width:inherit;
+
+}
+
+.img2sec2 {
+    width: inherit;
 }
 
 .sec2 {
@@ -93,14 +111,12 @@ li {
     display: flex;
     margin: 1%;
     width: 230px;
-    border: solid yellow;
     border-radius: 15px;
 }
 .divimg2{
     display: flex;
     margin: 1%;
     width: 230px;
-    border: solid yellow;
     border-radius: 15px;
 }
 
