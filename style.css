@@ -83,14 +83,14 @@ li {
     width: 40%;
     height: 500px;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 .imgsec1 {
     width: 100%;
-    overflow: hidden;
 }
 .img1sec2 {
-    width:inherit;
+    width: inherit;
 
 }
 
@@ -110,14 +110,16 @@ li {
 .divimg1{
     display: flex;
     margin: 1%;
-    width: 230px;
+    width: 250px;
     border-radius: 15px;
+    overflow: hidden;
 }
 .divimg2{
     display: flex;
     margin: 1%;
-    width: 230px;
+    width: 250px;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 .dest1 {
