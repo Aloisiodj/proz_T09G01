@@ -158,6 +158,16 @@ li {
     border-radius: 15px;
 }
 
+.quemsomos {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    border-radius: 15px;
+    border: solid saddlebrown;
+}
 footer {
     display: flex;
     flex-direction: column;
