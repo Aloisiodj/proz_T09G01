@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
   <link rel = "stylesheet" href="style.css">
   <title>Exlplorer Tur, conectando destinos e exploradores</title>
 </head>
 <body>
   <header>
     <div class="caixalogo">
-     <img class="logo" src="files/342042664.jpg" alt="Exlplorer Tur">
+     <img class="logo" src="imagens/logo.jpg" alt="Exlplorer Tur">
     </div>
     <nav class="caixanav">
         <ul>
@@ -23,17 +24,23 @@
     </nav>
   </header> 
   <main>
-    <div class="dest1">
-    
-    </div>
-    <div class="dest2">
-
-    </div>
-    <div class="dest3">
-
-    </div>
-    <div class="dest4">
-    
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="next image">▶</button>
+        <div class="galeria-wrapper">
+            <div class="galeria">
+            <img src="imagens/Paris/Paris.jpg" alt="Paris" class="item current-item">
+            <img src="imagens/paradise.jpg" alt="Paris" class="item current-item">
+            <img src="imagens/praia.png" alt="Rio de Janeiro" class="item current-item">
+            <img src="imagens/trilha.webp" alt="Rio de Janeiro" class="item current-item">
+            <img src="imagens/Barco.jpeg" alt="Rio de Janeiro" class="item current-item">
+            <img src="imagens/Egito/egito.jpeg" alt="Rio de Janeiro" class="item current-item">
+            <img src="imagens/austria.jpeg" alt="Rio de Janeiro" class="item current-item">
+            <img src="imagens/cachoeira.jpg" alt="Rio de Janeiro" class="item current-item">
+            <img src="imagens/Riodejaneiro/Riodejaneiro1200x641.jpg" alt="Rio de Janeiro" class="item current-item">
+            <img src="imagens/casalago.jpg" alt="Rio de Janeiro" class="item current-item">
+            </div>    
+        </div>
     </div>
   </main>
   <footer>
@@ -43,3 +50,21 @@
   </footer>
 </body>
 </html>
+
+<!-- <ul class="slider">
+    <li>
+          <input type="radio" id="slide1" name="slide" checked>
+          <label for="slide1"></label>
+          <img src="imagens/Riodejaneiro.jpeg" />
+    </li>
+    <li>
+          <input type="radio" id="slide2" name="slide">
+          <label for="slide2"></label>
+          <img src="imagens/Riodejaneiro.jpeg" />
+    </li>
+    <li>
+          <input type="radio" id="slide3" name="slide">
+          <label for="slide3"></label>
+          <img src="imagens/Riodejaneiro.jpeg" />
+    </li>
+</ul> -->
