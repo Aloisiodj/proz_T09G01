@@ -29,7 +29,6 @@ body {
     margin: 8px;
 }
 .menutop {
-    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     background: bisque;
@@ -95,7 +94,7 @@ li {
     margin-right: 5px;
 }
 .sec1 {
-    margin: 25px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -126,9 +125,9 @@ li {
     margin: 15px;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    width: 40%;
+    width: 45%;
     height: auto;
 }
 
