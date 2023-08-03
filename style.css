@@ -2,7 +2,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid red;
 }
 
 .caixalogo{
@@ -10,6 +9,7 @@ header {
     overflow: hidden;
     width: 20%;
     border-radius: 100%;
+    box-shadow: 0 3px 3px 1px rgb(85, 46, 6);
 }
 .logo{
     width: 100%;
@@ -20,14 +20,16 @@ header {
 }
 
 body {
+    font-family: 'raleway', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(to bottom right, rgb(250, 222, 172), rgb(254, 204, 135), rgb(255, 133, 46));
+    background-image: linear-gradient(to top left, rgb(250, 222, 172), rgb(254, 204, 135), rgb(255, 133, 46));
     background-size: cover;
     margin: 8px;
 }
 .menutop {
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     background: bisque;
@@ -41,19 +43,20 @@ main {
     max-width: 80%;
     margin-top: 40px;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
     background: rgb(255, 247, 237);
     border-radius: 5px;
+    box-shadow: 0 0 2px rgb(85, 46, 6);
 }
 a {
     text-decoration: none;
     color:rgb(85, 46, 6)
 }
 li:hover{
-    background-color: peru;
+    background-color: rgb(102, 56, 9);
     border-radius: 15px;
-    color: brown;
+    color: antiquewhite;
     transition: 100ms;
 }
 li:active {
@@ -61,10 +64,10 @@ li:active {
     background-color:cornflowerblue;
     transition: 100ms;
 }
-
+/*
 h3, h2, h4, h5, p, nav {
     font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 /*nav {
     display: flex;
     font-size: 14px;
@@ -76,16 +79,16 @@ ul {
     display: flex;
     flex-wrap: wrap;
     border-radius: 25px;
-    background-color: rgb(171, 77, 43);
+    border: solid rgb(103, 59, 15);
+    border-width: 1px;
 }
 li {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 5px;
     padding-right: 5px;
-    color: burlywood;
+    color: rgb(85, 46, 6);
     margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 5px;
@@ -94,24 +97,30 @@ li {
 .sec1 {
     margin: 25px;
     display: flex;
+    flex-direction: column;
     width: 40%;
     height: auto;
-    border-radius: 5px;
-    border: solid saddlebrown;
-    border-width: 2px;
-    overflow: hidden;
 }
 
+.linha {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, brown, orange);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*
 .imgsec1 {
     max-width: 100%;
-}
+}*/
+
 .img1sec2 {
     max-width: 100%;
 }
-
+/*
 .img2sec2 {
     max-width: 100%;
-}
+}*/
 
 .sec2 {
     margin: 15px;
@@ -126,12 +135,14 @@ li {
 .divimg1{
     display: flex;
     margin-bottom: 30px;
-    width: 45%;
+    width: 90%;
     height: fit-content;
-    border-radius: 15px;
+    border-radius: 5px;
     border: solid saddlebrown;
+    border-width: 1px;
     overflow: hidden;
 }
+/*
 .divimg2{
     display: flex;
     margin-bottom: 30px;
@@ -140,7 +151,9 @@ li {
     border-radius: 15px;
     border: solid rgb(85, 46, 6);
     overflow: hidden;
-}
+}*/
+
+/*Destinos*/
 
 /* .dest1 {
     margin: 20px;
@@ -274,7 +287,6 @@ gap: 15px;
 /*Form contato */
 
 form {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     margin: 20px;
     padding: 15px;
@@ -284,11 +296,24 @@ form {
 }
 
 h1 {
-    font-family: 'raleway', sans-serif;
+    font-size: 66px;
+    font-weight: 500;
     margin-bottom: 20px;
     margin-left: 20px;
     color: antiquewhite;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 1px 1px 1px rgb(85, 46, 6);
+}
+h2 {
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(103, 59, 15);
+    text-shadow: 1px 1px 1px rgb(85, 46, 6);
+}
+h3 {
+    font-size: 40px;
+    font-weight: 300;
+    color: rgb(247, 240, 230);
+    text-shadow: 1px 1px 1px rgb(85, 46, 6);
 }
 
 input, textarea {
