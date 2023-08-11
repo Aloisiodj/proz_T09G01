@@ -24,8 +24,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(to top left, rgb(250, 222, 172), rgb(254, 204, 135), rgb(255, 133, 46));
-    background-size: cover;
+    background-image: url(files/beach-832346rec2.jpg), linear-gradient(to top left, rgb(250, 222, 172), rgb(254, 204, 135), rgb(255, 133, 46));;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top, bottom;
     margin: 8px;
 }
 .menutop {
