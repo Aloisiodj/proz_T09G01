@@ -160,9 +160,10 @@ li {
 
 .sec1exp {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100em;
     height: 700px;
 }
 /*
