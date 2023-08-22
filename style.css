@@ -351,10 +351,18 @@ h3 {
 }
 
 h4 {
+    margin: 10px;
     font-size: 30px;
     font-weight: 300;
-    color:dodgerblue;
+    color: darkorange;
     text-shadow: 1px 1px 1px rgb(85, 46, 6);
+}
+
+p {
+    display: flex;
+    align-self:center;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
 input, textarea {
