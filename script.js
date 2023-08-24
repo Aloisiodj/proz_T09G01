@@ -35,15 +35,29 @@ controls.forEach((control) => {
 
 // Validação formulário//
 
-let usernameInput = document.getElementById("nomeid");
-let usernameLabel = document.querySelector('label[for="nomeid"]');
-let usernameHelper = document.getElementById("nomeid-helper");
+const nameInput = document.getElementById('nomeid')
+const emailInput = document.getElementsById('emailid')
+const foneInput = document.getElementById('foneid')
 
-usernameInput.addEventListener('focus', () => {
-  usernameLabel.classList.add('required-popup')
-})
-usernameInput.addEventListener('blur', () => {
-  usernameLabel.classList.remove('required-popup')
-})
+const errormessages = document.querySelector
+
+const nameValue = nameInput.value;
+const emailValue = emailInput.value;
+
+
+/*
+username.classList.add('correct')
+
+errormessages[1].classList.add('visible')
+*/
+
+// Mostrar pop obrigatório//
+
+
+// Ocultar pop obrigatório //
+
+
+
+// Validar input //
 
 

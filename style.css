@@ -363,13 +363,15 @@ gap: 15px;
 
 .quemsomos {
     margin: 20px;
+    margin-top: 50px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     width: 50%;
     height: auto;
     border-radius: 15px;
-    border: solid saddlebrown;
+    border: 1px solid saddlebrown;
+    background: antiquewhite;
 }
 
 .imgqs {
