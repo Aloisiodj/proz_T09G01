@@ -34,7 +34,8 @@ body {
     display: flex;
     justify-content: center;
     background: bisque;
-    border-radius: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     width: 100%;
     height: 80px;
    /* border: solid red; */
@@ -47,7 +48,7 @@ main {
     justify-content: space-evenly;
     align-items: center;
     background: rgb(255, 247, 237);
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 0 2px rgb(85, 46, 6);
 }
 a {
@@ -138,7 +139,7 @@ li {
     margin-bottom: 30px;
     width: 90%;
     height: fit-content;
-    border-radius: 10px;
+    border-radius: 15px;
     border: solid saddlebrown;
     border-width: 1px;
     overflow: hidden;
@@ -160,7 +161,7 @@ li {
     height: 400px;
     border: solid saddlebrown;
     border-width: 1px;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -176,6 +177,59 @@ li {
     width: 100em;
     height: 700px;
 }
+
+.destinos {
+    margin: 0 auto;
+    width: 100em;
+    padding: 30px;
+}
+
+.galeria {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.box {
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    aspect-ratio: 1/1;
+    background-color: bisque;
+    border: solid 1px brown;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.desc {
+    display: none;
+}
+
+.imgdest img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.imgdest:target{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 75%;
+    top: 5%;
+    left: 10%;
+    background: bisque;
+    border: solid 5px antiquewhite;
+}
+
+.imgdest:target img{
+    width: 55%;
+}
+
+.imgdest:target .desc{
+    display: block;
+    width:300px;
+}
+
+
 /*
 .divimg2{
     display: flex;
@@ -224,6 +278,7 @@ li {
     box-sizing: border-box;
 }*/
 
+/*
 .container{
     position: relative;
     padding: 15px;
@@ -351,7 +406,7 @@ h3 {
 }
 
 h4 {
-    margin: 10px;
+    margin: 5px;
     font-size: 30px;
     font-weight: 300;
     color: darkorange;
@@ -360,9 +415,8 @@ h4 {
 
 p {
     display: flex;
-    align-self:center;
-    margin-left: 15px;
-    margin-right: 10px;
+    text-align: center;
+    margin: 15px;
 }
 
 input, textarea {
