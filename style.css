@@ -199,34 +199,44 @@ li {
     border: solid 1px brown;
     overflow: hidden;
     padding: 15px;
+    padding-right: 18px;
 }
 
 .desc {
     display: none;
 }
 
-.imgdest img {
-    max-width: 100%;
+.caixaimg {
+    display: flex;
+    width: 100%;
     border-radius: 10px;
+    border: solid 1px saddlebrown;
+    overflow: hidden;
+}
+.caixaimg img {
+    display: flex;
+    width: 100%;
 }
 .imgdest:target{
-    display: flex;
-    justify-content: center;
+    display:flex;
     position: fixed;
-    width: 75%;
-    top: 5%;
-    left: 10%;
+    width: 85%;
+    top: 7%;
+    left: 7%;
     background: bisque;
-    border: solid 5px antiquewhite;
+    border: solid 10px antiquewhite;
+    border-radius: 10px;
 }
 
-.imgdest:target img{
-    width: 55%;
+.imgdest:target .caixaimg{
+    display: flex;
+    width: 100%;
 }
 
 .imgdest:target .desc{
     display: block;
-    width:300px;
+    align-items: center;
+    width: 30%;
 }
 
 
