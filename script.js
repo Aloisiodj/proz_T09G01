@@ -41,11 +41,16 @@ const campos = document.querySelectorAll('required')
 const p = document.getElementsByClassName('visible')
 const emailregex = ('[a-z0-9]+@[a-z]+\.[a-z]{2,3}')
 
-    function nameValidate(){
-      if (campos{0}.value.lenght < 4)
+function nameValidate(){
+      if(campos{0}.value.length < 4)
       {
-        console.log ('Nome deve ter pelo menos 3 caracteres')
+          console.log('Nome deve ter pelo menos 3 caracteres')
       }
+      else
+      {
+          console.log('Nome validado') 
+      }
+
 
 
 

@@ -126,6 +126,7 @@ li {
 
 .sec2 {
     margin: 15px;
+    margin-top: 60px;
     padding: 10px;
     display: flex;
     justify-content: flex-end;
@@ -155,6 +156,7 @@ li {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    margin-top: 30px;
     padding: 15px;
     align-items: center;
     text-align: center;
