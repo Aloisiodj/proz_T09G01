@@ -155,14 +155,21 @@ li {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    padding: 15px;
     align-items: center;
+    text-align: center;
     background: blanchedalmond;
     width: 25%;
     height: 500px;
-    border: solid saddlebrown;
+    border: solid peru;
     border-width: 1px;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 0 0 3px rgb(85, 46, 6);
+}
+
+.divsec3 img {
+    border-radius: 13px;
 }
 
 .imgcard {
@@ -196,10 +203,11 @@ li {
     border-radius: 15px;
     aspect-ratio: 1/1;
     background-color: bisque;
-    border: solid 1px brown;
+    border: solid 1px burlywood;
     overflow: hidden;
     padding: 15px;
     padding-right: 18px;
+    box-shadow: 0 0 3px rgb(85, 46, 6);
 }
 
 .desc {
@@ -227,6 +235,7 @@ li {
     background: bisque;
     border: solid 10px antiquewhite;
     border-radius: 10px;
+    box-shadow: 0 0 32px 3px rgb(85, 46, 6);
 }
 
 .imgdest:target .caixaimg{
@@ -569,7 +578,7 @@ footer {
 
 /* FOOTER responsível - adaptação*/
 
-footer {
+footer {  
     width: 100%;
 }
 
