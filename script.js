@@ -35,14 +35,21 @@ controls.forEach((control) => {
 
 // Validação formulário//
 
-const nameInput = document.getElementById('nomeid')
-const emailInput = document.getElementsById('emailid')
-const foneInput = document.getElementById('foneid')
+const form = document.getElementsByName('formcont')
 
-const errormessages = document.querySelector
+const campos = document.querySelectorAll('required')
+const p = document.getElementsByClassName('visible')
+const emailregex = ('[a-z0-9]+@[a-z]+\.[a-z]{2,3}')
 
-const nameValue = nameInput.value;
-const emailValue = emailInput.value;
+    function nameValidate(){
+      if (campos{0}.value.lenght < 4)
+      {
+        console.log ('Nome deve ter pelo menos 3 caracteres')
+      }
+
+
+
+    }
 
 
 /*
