@@ -158,7 +158,7 @@ li {
     align-items: center;
     background: blanchedalmond;
     width: 25%;
-    height: 400px;
+    height: 500px;
     border: solid saddlebrown;
     border-width: 1px;
     border-radius: 15px;
@@ -208,6 +208,7 @@ li {
 
 .caixaimg {
     display: flex;
+    margin-top: 30px;
     width: 100%;
     border-radius: 10px;
     border: solid 1px saddlebrown;
@@ -229,14 +230,20 @@ li {
 }
 
 .imgdest:target .caixaimg{
+    margin: 0;
     display: flex;
     width: 100%;
 }
 
 .imgdest:target .desc{
     display: block;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
     align-items: center;
-    width: 30%;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 25%;
 }
 
 
@@ -417,16 +424,15 @@ h3 {
 
 h4 {
     margin: 5px;
-    font-size: 30px;
-    font-weight: 300;
-    color: darkorange;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    color: brown;
     text-shadow: 1px 1px 1px rgb(85, 46, 6);
 }
 
 p {
-    display: flex;
-    text-align: center;
-    margin: 15px;
+    font-size: 20px;
 }
 
 input, textarea {
@@ -472,6 +478,37 @@ form label {
     color: #FFFFFF;
     font-weight: bold;
 }
+
+/*Dinânicos*/
+
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+  input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+  
+  .visible {
+    display: none;
+  }
 
 /* Fim form contato*/
 

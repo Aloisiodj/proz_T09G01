@@ -1,4 +1,4 @@
-const controls = document.querySelectorAll(".control");
+/*const controls = document.querySelectorAll(".control");
 let currentItem = 0;
 const items = document.querySelectorAll(".item");
 const maxItems = items.length;
@@ -31,3 +31,19 @@ controls.forEach((control) => {
     items[currentItem].classList.add("current-item");
   });
 });
+*/
+
+// Validação formulário//
+
+let usernameInput = document.getElementById("nomeid");
+let usernameLabel = document.querySelector('label[for="nomeid"]');
+let usernameHelper = document.getElementById("nomeid-helper");
+
+usernameInput.addEventListener('focus', () => {
+  usernameLabel.classList.add('required-popup')
+})
+usernameInput.addEventListener('blur', () => {
+  usernameLabel.classList.remove('required-popup')
+})
+
+
